@@ -1,0 +1,3462 @@
+{
+  "version": 1,
+  "generatedFrom": [
+    "eon",
+    "kawasaki-20220706T144423Z-001"
+  ],
+  "fileCount": 493,
+  "totalBytes": 83311936,
+  "files": [
+    {
+      "path": "corpus/eon/15-16/15/1446훈민정음해례.txt",
+      "name": "1446훈민정음해례.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 24496
+    },
+    {
+      "path": "corpus/eon/15-16/15/1447석보상절03.txt",
+      "name": "1447석보상절03.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 30830
+    },
+    {
+      "path": "corpus/eon/15-16/15/1447석보상절06-24.txt",
+      "name": "1447석보상절06-24.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 256800
+    },
+    {
+      "path": "corpus/eon/15-16/15/1447석보상절20.txt",
+      "name": "1447석보상절20.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 30526
+    },
+    {
+      "path": "corpus/eon/15-16/15/1447용비어천가.txt",
+      "name": "1447용비어천가.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 19232
+    },
+    {
+      "path": "corpus/eon/15-16/15/1447월인천강지곡.txt",
+      "name": "1447월인천강지곡.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 30122
+    },
+    {
+      "path": "corpus/eon/15-16/15/1448동국정운1.txt",
+      "name": "1448동국정운1.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 219416
+    },
+    {
+      "path": "corpus/eon/15-16/15/1448동국정운1.xml",
+      "name": "1448동국정운1.xml",
+      "corpus": "eon",
+      "ext": "xml",
+      "size": 219416
+    },
+    {
+      "path": "corpus/eon/15-16/15/1448동국정운2.txt",
+      "name": "1448동국정운2.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 212188
+    },
+    {
+      "path": "corpus/eon/15-16/15/1448동국정운2.xml",
+      "name": "1448동국정운2.xml",
+      "corpus": "eon",
+      "ext": "xml",
+      "size": 212188
+    },
+    {
+      "path": "corpus/eon/15-16/15/1448동국정운3.txt",
+      "name": "1448동국정운3.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 204396
+    },
+    {
+      "path": "corpus/eon/15-16/15/1448동국정운3.xml",
+      "name": "1448동국정운3.xml",
+      "corpus": "eon",
+      "ext": "xml",
+      "size": 204396
+    },
+    {
+      "path": "corpus/eon/15-16/15/1448동국정운4.txt",
+      "name": "1448동국정운4.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 179800
+    },
+    {
+      "path": "corpus/eon/15-16/15/1448동국정운4.xml",
+      "name": "1448동국정운4.xml",
+      "corpus": "eon",
+      "ext": "xml",
+      "size": 179800
+    },
+    {
+      "path": "corpus/eon/15-16/15/1448동국정운5.txt",
+      "name": "1448동국정운5.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 191330
+    },
+    {
+      "path": "corpus/eon/15-16/15/1448동국정운5.xml",
+      "name": "1448동국정운5.xml",
+      "corpus": "eon",
+      "ext": "xml",
+      "size": 191330
+    },
+    {
+      "path": "corpus/eon/15-16/15/1448동국정운6.txt",
+      "name": "1448동국정운6.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 199324
+    },
+    {
+      "path": "corpus/eon/15-16/15/1448동국정운6.xml",
+      "name": "1448동국정운6.xml",
+      "corpus": "eon",
+      "ext": "xml",
+      "size": 199324
+    },
+    {
+      "path": "corpus/eon/15-16/15/1459월인석보01-10_23.txt",
+      "name": "1459월인석보01-10_23.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 360034
+    },
+    {
+      "path": "corpus/eon/15-16/15/1459월인석보04.txt",
+      "name": "1459월인석보04.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 38156
+    },
+    {
+      "path": "corpus/eon/15-16/15/1459월인석보07.txt",
+      "name": "1459월인석보07.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 44604
+    },
+    {
+      "path": "corpus/eon/15-16/15/1459월인석보11-18.txt",
+      "name": "1459월인석보11-18.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 338148
+    },
+    {
+      "path": "corpus/eon/15-16/15/1459월인석보15.txt",
+      "name": "1459월인석보15.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 51694
+    },
+    {
+      "path": "corpus/eon/15-16/15/1459월인석보20.txt",
+      "name": "1459월인석보20.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 114776
+    },
+    {
+      "path": "corpus/eon/15-16/15/1459월인석보21.txt",
+      "name": "1459월인석보21.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 112024
+    },
+    {
+      "path": "corpus/eon/15-16/15/1459월인석보25.txt",
+      "name": "1459월인석보25.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 109840
+    },
+    {
+      "path": "corpus/eon/15-16/15/1461능엄경.txt",
+      "name": "1461능엄경.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 713918
+    },
+    {
+      "path": "corpus/eon/15-16/15/1463법화경1.txt",
+      "name": "1463법화경1.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 130684
+    },
+    {
+      "path": "corpus/eon/15-16/15/1463법화경2.txt",
+      "name": "1463법화경2.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 139340
+    },
+    {
+      "path": "corpus/eon/15-16/15/1463법화경3-6.txt",
+      "name": "1463법화경3-6.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 386218
+    },
+    {
+      "path": "corpus/eon/15-16/15/1463법화경7.txt",
+      "name": "1463법화경7.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 85598
+    },
+    {
+      "path": "corpus/eon/15-16/15/1464금강경.txt",
+      "name": "1464금강경.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 58436
+    },
+    {
+      "path": "corpus/eon/15-16/15/1464반야심경.txt",
+      "name": "1464반야심경.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 31450
+    },
+    {
+      "path": "corpus/eon/15-16/15/1464상원사중창권선문.txt",
+      "name": "1464상원사중창권선문.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 2218
+    },
+    {
+      "path": "corpus/eon/15-16/15/1464선종영가집_상.txt",
+      "name": "1464선종영가집_상.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 76698
+    },
+    {
+      "path": "corpus/eon/15-16/15/1464선종영가집_하.txt",
+      "name": "1464선종영가집_하.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 84078
+    },
+    {
+      "path": "corpus/eon/15-16/15/1464아미타경.txt",
+      "name": "1464아미타경.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 11916
+    },
+    {
+      "path": "corpus/eon/15-16/15/1465원각경.txt",
+      "name": "1465원각경.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 612856
+    },
+    {
+      "path": "corpus/eon/15-16/15/1466구급방언해.txt",
+      "name": "1466구급방언해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 122922
+    },
+    {
+      "path": "corpus/eon/15-16/15/1467목우자수심결.txt",
+      "name": "1467목우자수심결.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 31128
+    },
+    {
+      "path": "corpus/eon/15-16/15/1467몽산법어.txt",
+      "name": "1467몽산법어.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 22854
+    },
+    {
+      "path": "corpus/eon/15-16/15/1475내훈.txt",
+      "name": "1475내훈.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 139570
+    },
+    {
+      "path": "corpus/eon/15-16/15/1481두시언해03.txt",
+      "name": "1481두시언해03.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 41486
+    },
+    {
+      "path": "corpus/eon/15-16/15/1481두시언해05.txt",
+      "name": "1481두시언해05.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 28054
+    },
+    {
+      "path": "corpus/eon/15-16/15/1481두시언해06-10.txt",
+      "name": "1481두시언해06-10.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 138198
+    },
+    {
+      "path": "corpus/eon/15-16/15/1481두시언해09.txt",
+      "name": "1481두시언해09.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 25366
+    },
+    {
+      "path": "corpus/eon/15-16/15/1481두시언해11-15.txt",
+      "name": "1481두시언해11-15.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 99126
+    },
+    {
+      "path": "corpus/eon/15-16/15/1481두시언해16-19.txt",
+      "name": "1481두시언해16-19.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 108992
+    },
+    {
+      "path": "corpus/eon/15-16/15/1481두시언해20-22.txt",
+      "name": "1481두시언해20-22.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 98900
+    },
+    {
+      "path": "corpus/eon/15-16/15/1481두시언해23-25.txt",
+      "name": "1481두시언해23-25.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 110964
+    },
+    {
+      "path": "corpus/eon/15-16/15/1481삼강행실도_런던.txt",
+      "name": "1481삼강행실도_런던.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 77852
+    },
+    {
+      "path": "corpus/eon/15-16/15/1482금강경삼가해.txt",
+      "name": "1482금강경삼가해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 303466
+    },
+    {
+      "path": "corpus/eon/15-16/15/1482남명집.txt",
+      "name": "1482남명집.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 194834
+    },
+    {
+      "path": "corpus/eon/15-16/15/1485관음경.txt",
+      "name": "1485관음경.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 13534
+    },
+    {
+      "path": "corpus/eon/15-16/15/1489구급간이방1-2.txt",
+      "name": "1489구급간이방1-2.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 143580
+    },
+    {
+      "path": "corpus/eon/15-16/15/1489구급간이방3_6.txt",
+      "name": "1489구급간이방3_6.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 139604
+    },
+    {
+      "path": "corpus/eon/15-16/15/1489구급간이방7.txt",
+      "name": "1489구급간이방7.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 45676
+    },
+    {
+      "path": "corpus/eon/15-16/15/1496육조단경_상.txt",
+      "name": "1496육조단경_상.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 137878
+    },
+    {
+      "path": "corpus/eon/15-16/15/1496육조단경_중.txt",
+      "name": "1496육조단경_중.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 118412
+    },
+    {
+      "path": "corpus/eon/15-16/15/1496육조단경_하.txt",
+      "name": "1496육조단경_하.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 98684
+    },
+    {
+      "path": "corpus/eon/15-16/15/1496진언권공.txt",
+      "name": "1496진언권공.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 27578
+    },
+    {
+      "path": "corpus/eon/15-16/15/1500개간법화경.txt",
+      "name": "1500개간법화경.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 102736
+    },
+    {
+      "path": "corpus/eon/15-16/16/15--삼강행실도_동경.txt",
+      "name": "15--삼강행실도_동경.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 80284
+    },
+    {
+      "path": "corpus/eon/15-16/16/15--순천김씨언간.txt",
+      "name": "15--순천김씨언간.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 177280
+    },
+    {
+      "path": "corpus/eon/15-16/16/15--장수멸죄호제동자다라니경.txt",
+      "name": "15--장수멸죄호제동자다라니경.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 70676
+    },
+    {
+      "path": "corpus/eon/15-16/16/1514속삼강행실도.txt",
+      "name": "1514속삼강행실도.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 28490
+    },
+    {
+      "path": "corpus/eon/15-16/16/1517몽산법어_고운사.txt",
+      "name": "1517몽산법어_고운사.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 30866
+    },
+    {
+      "path": "corpus/eon/15-16/16/1517번역노걸대_상.txt",
+      "name": "1517번역노걸대_상.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 43172
+    },
+    {
+      "path": "corpus/eon/15-16/16/1517번역노걸대_하.txt",
+      "name": "1517번역노걸대_하.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 43014
+    },
+    {
+      "path": "corpus/eon/15-16/16/1517번역박통사.txt",
+      "name": "1517번역박통사.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 44680
+    },
+    {
+      "path": "corpus/eon/15-16/16/1518번역소학03-04.txt",
+      "name": "1518번역소학03-04.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 62874
+    },
+    {
+      "path": "corpus/eon/15-16/16/1518번역소학06.txt",
+      "name": "1518번역소학06.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 17714
+    },
+    {
+      "path": "corpus/eon/15-16/16/1518번역소학07.txt",
+      "name": "1518번역소학07.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 23106
+    },
+    {
+      "path": "corpus/eon/15-16/16/1518번역소학08.txt",
+      "name": "1518번역소학08.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 20802
+    },
+    {
+      "path": "corpus/eon/15-16/16/1518번역소학09.txt",
+      "name": "1518번역소학09.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 49720
+    },
+    {
+      "path": "corpus/eon/15-16/16/1518번역소학10.txt",
+      "name": "1518번역소학10.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 16934
+    },
+    {
+      "path": "corpus/eon/15-16/16/1518이륜행실도_옥산.txt",
+      "name": "1518이륜행실도_옥산.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 27310
+    },
+    {
+      "path": "corpus/eon/15-16/16/1518정속언해.txt",
+      "name": "1518정속언해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 26114
+    },
+    {
+      "path": "corpus/eon/15-16/16/1522법집별행록.txt",
+      "name": "1522법집별행록.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 45494
+    },
+    {
+      "path": "corpus/eon/15-16/16/1525간이벽온방.txt",
+      "name": "1525간이벽온방.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 12638
+    },
+    {
+      "path": "corpus/eon/15-16/16/1525몽산법어_심원사.txt",
+      "name": "1525몽산법어_심원사.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 30754
+    },
+    {
+      "path": "corpus/eon/15-16/16/1527훈몽자회.txt",
+      "name": "1527훈몽자회.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 57692
+    },
+    {
+      "path": "corpus/eon/15-16/16/1535몽산법어_빙발암.txt",
+      "name": "1535몽산법어_빙발암.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 30692
+    },
+    {
+      "path": "corpus/eon/15-16/16/1541우마양저염역병치료방.txt",
+      "name": "1541우마양저염역병치료방.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 5420
+    },
+    {
+      "path": "corpus/eon/15-16/16/1542분문온역이해방.txt",
+      "name": "1542분문온역이해방.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 14198
+    },
+    {
+      "path": "corpus/eon/15-16/16/1554구황촬요.txt",
+      "name": "1554구황촬요.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 7114
+    },
+    {
+      "path": "corpus/eon/15-16/16/156-여씨향약언해_화산.txt",
+      "name": "156-여씨향약언해_화산.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 25564
+    },
+    {
+      "path": "corpus/eon/15-16/16/1560육자선정.txt",
+      "name": "1560육자선정.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 10870
+    },
+    {
+      "path": "corpus/eon/15-16/16/1563부모은중경.txt",
+      "name": "1563부모은중경.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 12448
+    },
+    {
+      "path": "corpus/eon/15-16/16/1567몽산화상육도보설.txt",
+      "name": "1567몽산화상육도보설.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 34024
+    },
+    {
+      "path": "corpus/eon/15-16/16/1569선가귀감.txt",
+      "name": "1569선가귀감.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 62558
+    },
+    {
+      "path": "corpus/eon/15-16/16/1569칠대만법.txt",
+      "name": "1569칠대만법.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 21306
+    },
+    {
+      "path": "corpus/eon/15-16/16/1574여씨향약언해_일석.txt",
+      "name": "1574여씨향약언해_일석.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 25944
+    },
+    {
+      "path": "corpus/eon/15-16/16/1575천자문_광주.txt",
+      "name": "1575천자문_광주.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 17814
+    },
+    {
+      "path": "corpus/eon/15-16/16/1576백련초해.txt",
+      "name": "1576백련초해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 34102
+    },
+    {
+      "path": "corpus/eon/15-16/16/1576신증유합.txt",
+      "name": "1576신증유합.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 84380
+    },
+    {
+      "path": "corpus/eon/15-16/16/1576안락국태자전.txt",
+      "name": "1576안락국태자전.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 12140
+    },
+    {
+      "path": "corpus/eon/15-16/16/1576안민학애도문.txt",
+      "name": "1576안민학애도문.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 6642
+    },
+    {
+      "path": "corpus/eon/15-16/16/1577몽산법어_송광사.txt",
+      "name": "1577몽산법어_송광사.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 31748
+    },
+    {
+      "path": "corpus/eon/15-16/16/1577초발심자경문.txt",
+      "name": "1577초발심자경문.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 25370
+    },
+    {
+      "path": "corpus/eon/15-16/16/1579경민편.txt",
+      "name": "1579경민편.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 12220
+    },
+    {
+      "path": "corpus/eon/15-16/16/1581속삼강행실도_중간.txt",
+      "name": "1581속삼강행실도_중간.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 31522
+    },
+    {
+      "path": "corpus/eon/15-16/16/1583천자문_석봉.txt",
+      "name": "1583천자문_석봉.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 18554
+    },
+    {
+      "path": "corpus/eon/15-16/16/1586이응태묘출토언간.txt",
+      "name": "1586이응태묘출토언간.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 1412
+    },
+    {
+      "path": "corpus/eon/15-16/16/1588소학언해1.txt",
+      "name": "1588소학언해1.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 14110
+    },
+    {
+      "path": "corpus/eon/15-16/16/1588소학언해2.txt",
+      "name": "1588소학언해2.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 41190
+    },
+    {
+      "path": "corpus/eon/15-16/16/1588소학언해3.txt",
+      "name": "1588소학언해3.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 15160
+    },
+    {
+      "path": "corpus/eon/15-16/16/1588소학언해4.txt",
+      "name": "1588소학언해4.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 31704
+    },
+    {
+      "path": "corpus/eon/15-16/16/1588소학언해5.txt",
+      "name": "1588소학언해5.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 68114
+    },
+    {
+      "path": "corpus/eon/15-16/16/1588소학언해6.txt",
+      "name": "1588소학언해6.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 76704
+    },
+    {
+      "path": "corpus/eon/15-16/16/1588주역언해.txt",
+      "name": "1588주역언해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 144258
+    },
+    {
+      "path": "corpus/eon/15-16/16/159-무예제보.txt",
+      "name": "159-무예제보.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 17008
+    },
+    {
+      "path": "corpus/eon/15-16/16/1590논어언해.txt",
+      "name": "1590논어언해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 103612
+    },
+    {
+      "path": "corpus/eon/15-16/16/1590대학언해.txt",
+      "name": "1590대학언해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 11988
+    },
+    {
+      "path": "corpus/eon/15-16/16/1590맹자언해.txt",
+      "name": "1590맹자언해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 211550
+    },
+    {
+      "path": "corpus/eon/15-16/16/1590중용언해.txt",
+      "name": "1590중용언해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 22380
+    },
+    {
+      "path": "corpus/eon/15-16/16/1590효경언해.txt",
+      "name": "1590효경언해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 14662
+    },
+    {
+      "path": "corpus/eon/17/16--계녀서.txt",
+      "name": "16--계녀서.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 26830
+    },
+    {
+      "path": "corpus/eon/17/16--계축일기.txt",
+      "name": "16--계축일기.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 126970
+    },
+    {
+      "path": "corpus/eon/17/16--납약증치방.txt",
+      "name": "16--납약증치방.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 22528
+    },
+    {
+      "path": "corpus/eon/17/16--두창경험방.txt",
+      "name": "16--두창경험방.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 41676
+    },
+    {
+      "path": "corpus/eon/17/16--마경초집언해.txt",
+      "name": "16--마경초집언해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 122468
+    },
+    {
+      "path": "corpus/eon/17/16--서궁일기.txt",
+      "name": "16--서궁일기.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 119174
+    },
+    {
+      "path": "corpus/eon/17/16--서전언해.txt",
+      "name": "16--서전언해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 160524
+    },
+    {
+      "path": "corpus/eon/17/16--현풍곽씨언간.txt",
+      "name": "16--현풍곽씨언간.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 126274
+    },
+    {
+      "path": "corpus/eon/17/1608두창집요.txt",
+      "name": "1608두창집요.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 94068
+    },
+    {
+      "path": "corpus/eon/17/1608태산집요.txt",
+      "name": "1608태산집요.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 53536
+    },
+    {
+      "path": "corpus/eon/17/1612연병지남.txt",
+      "name": "1612연병지남.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 21082
+    },
+    {
+      "path": "corpus/eon/17/1613동의보감.txt",
+      "name": "1613동의보감.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 19868
+    },
+    {
+      "path": "corpus/eon/17/1613시경언해.txt",
+      "name": "1613시경언해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 197252
+    },
+    {
+      "path": "corpus/eon/17/1617동국신속_삼강열녀.txt",
+      "name": "1617동국신속_삼강열녀.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 4414
+    },
+    {
+      "path": "corpus/eon/17/1617동국신속_삼강충신.txt",
+      "name": "1617동국신속_삼강충신.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 4736
+    },
+    {
+      "path": "corpus/eon/17/1617동국신속_삼강효자.txt",
+      "name": "1617동국신속_삼강효자.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 3396
+    },
+    {
+      "path": "corpus/eon/17/1617동국신속_속삼강열녀.txt",
+      "name": "1617동국신속_속삼강열녀.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 9420
+    },
+    {
+      "path": "corpus/eon/17/1617동국신속_속삼강충신.txt",
+      "name": "1617동국신속_속삼강충신.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 3224
+    },
+    {
+      "path": "corpus/eon/17/1617동국신속_속삼강효자.txt",
+      "name": "1617동국신속_속삼강효자.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 14512
+    },
+    {
+      "path": "corpus/eon/17/1617동국신속_열녀.txt",
+      "name": "1617동국신속_열녀.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 220512
+    },
+    {
+      "path": "corpus/eon/17/1617동국신속_충신.txt",
+      "name": "1617동국신속_충신.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 42024
+    },
+    {
+      "path": "corpus/eon/17/1617동국신속_효자.txt",
+      "name": "1617동국신속_효자.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 193212
+    },
+    {
+      "path": "corpus/eon/17/163-병자일기.txt",
+      "name": "163-병자일기.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 147546
+    },
+    {
+      "path": "corpus/eon/17/163-산성일기.txt",
+      "name": "163-산성일기.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 59372
+    },
+    {
+      "path": "corpus/eon/17/1632가례언해.txt",
+      "name": "1632가례언해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 306788
+    },
+    {
+      "path": "corpus/eon/17/1632두시언해_중간.txt",
+      "name": "1632두시언해_중간.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 728016
+    },
+    {
+      "path": "corpus/eon/17/1632두시언해_중간02_20.txt",
+      "name": "1632두시언해_중간02_20.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 76346
+    },
+    {
+      "path": "corpus/eon/17/1635신전자취염소방.txt",
+      "name": "1635신전자취염소방.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 12206
+    },
+    {
+      "path": "corpus/eon/17/1635화포식언해.txt",
+      "name": "1635화포식언해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 25152
+    },
+    {
+      "path": "corpus/eon/17/1637권념요록.txt",
+      "name": "1637권념요록.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 19846
+    },
+    {
+      "path": "corpus/eon/17/1653벽온신방.txt",
+      "name": "1653벽온신방.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 11422
+    },
+    {
+      "path": "corpus/eon/17/1657어록해_초간.txt",
+      "name": "1657어록해_초간.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 19642
+    },
+    {
+      "path": "corpus/eon/17/1658경민편중간.txt",
+      "name": "1658경민편중간.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 29816
+    },
+    {
+      "path": "corpus/eon/17/1658여훈언해.txt",
+      "name": "1658여훈언해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 40368
+    },
+    {
+      "path": "corpus/eon/17/1660구황촬요_윤석창.txt",
+      "name": "1660구황촬요_윤석창.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 15438
+    },
+    {
+      "path": "corpus/eon/17/1661천자문_칠장사.txt",
+      "name": "1661천자문_칠장사.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 21494
+    },
+    {
+      "path": "corpus/eon/17/1664유합_칠장사.txt",
+      "name": "1664유합_칠장사.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 32070
+    },
+    {
+      "path": "corpus/eon/17/1669어록해_개간.txt",
+      "name": "1669어록해_개간.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 23392
+    },
+    {
+      "path": "corpus/eon/17/1670노걸대언해.txt",
+      "name": "1670노걸대언해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 78152
+    },
+    {
+      "path": "corpus/eon/17/1676첩해신어.txt",
+      "name": "1676첩해신어.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 58938
+    },
+    {
+      "path": "corpus/eon/17/1677박통사언해.txt",
+      "name": "1677박통사언해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 118516
+    },
+    {
+      "path": "corpus/eon/17/1686신간구황촬요.txt",
+      "name": "1686신간구황촬요.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 15816
+    },
+    {
+      "path": "corpus/eon/17/1690역어유해.txt",
+      "name": "1690역어유해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 113996
+    },
+    {
+      "path": "corpus/eon/17/1698신전자초방.txt",
+      "name": "1698신전자초방.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 11178
+    },
+    {
+      "path": "corpus/eon/17/1700유합_영장사.txt",
+      "name": "1700유합_영장사.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 29098
+    },
+    {
+      "path": "corpus/eon/17/1700천자문_영장사.txt",
+      "name": "1700천자문_영장사.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 18044
+    },
+    {
+      "path": "corpus/eon/18/17--가례석의.txt",
+      "name": "17--가례석의.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 1446
+    },
+    {
+      "path": "corpus/eon/18/17--선조행장.txt",
+      "name": "17--선조행장.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 70750
+    },
+    {
+      "path": "corpus/eon/18/17--응진경.txt",
+      "name": "17--응진경.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 28822
+    },
+    {
+      "path": "corpus/eon/18/1703삼역총해.txt",
+      "name": "1703삼역총해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 105408
+    },
+    {
+      "path": "corpus/eon/18/1721오륜전비.txt",
+      "name": "1721오륜전비.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 253560
+    },
+    {
+      "path": "corpus/eon/18/1730천자문_송광사.txt",
+      "name": "1730천자문_송광사.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 18494
+    },
+    {
+      "path": "corpus/eon/18/1737어제내훈.txt",
+      "name": "1737어제내훈.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 146844
+    },
+    {
+      "path": "corpus/eon/18/1737여사서.txt",
+      "name": "1737여사서.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 145112
+    },
+    {
+      "path": "corpus/eon/18/1745어제상훈.txt",
+      "name": "1745어제상훈.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 18134
+    },
+    {
+      "path": "corpus/eon/18/1746어제자성편.txt",
+      "name": "1746어제자성편.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 86226
+    },
+    {
+      "path": "corpus/eon/18/1748개수첩해신어.txt",
+      "name": "1748개수첩해신어.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 76202
+    },
+    {
+      "path": "corpus/eon/18/1748동문유해(하).txt",
+      "name": "1748동문유해(하).txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 43562
+    },
+    {
+      "path": "corpus/eon/18/1749논어율곡언해1.txt",
+      "name": "1749논어율곡언해1.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 20908
+    },
+    {
+      "path": "corpus/eon/18/1749논어율곡언해2.txt",
+      "name": "1749논어율곡언해2.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 24954
+    },
+    {
+      "path": "corpus/eon/18/1749논어율곡언해3.txt",
+      "name": "1749논어율곡언해3.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 29142
+    },
+    {
+      "path": "corpus/eon/18/1749논어율곡언해4.txt",
+      "name": "1749논어율곡언해4.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 29210
+    },
+    {
+      "path": "corpus/eon/18/1749대학율곡언해.txt",
+      "name": "1749대학율곡언해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 12446
+    },
+    {
+      "path": "corpus/eon/18/1749맹자율곡언해.txt",
+      "name": "1749맹자율곡언해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 125128
+    },
+    {
+      "path": "corpus/eon/18/1749중용율곡언해.txt",
+      "name": "1749중용율곡언해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 22254
+    },
+    {
+      "path": "corpus/eon/18/1752주해천자문.txt",
+      "name": "1752주해천자문.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 33544
+    },
+    {
+      "path": "corpus/eon/18/1752지장경.txt",
+      "name": "1752지장경.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 83434
+    },
+    {
+      "path": "corpus/eon/18/1756어제훈서.txt",
+      "name": "1756어제훈서.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 38310
+    },
+    {
+      "path": "corpus/eon/18/1756천의소감.txt",
+      "name": "1756천의소감.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 269636
+    },
+    {
+      "path": "corpus/eon/18/1757계주윤음.txt",
+      "name": "1757계주윤음.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 13592
+    },
+    {
+      "path": "corpus/eon/18/1758종덕신편.txt",
+      "name": "1758종덕신편.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 174844
+    },
+    {
+      "path": "corpus/eon/18/1760보현행원품.txt",
+      "name": "1760보현행원품.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 17416
+    },
+    {
+      "path": "corpus/eon/18/1761어제경세문답.txt",
+      "name": "1761어제경세문답.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 69248
+    },
+    {
+      "path": "corpus/eon/18/1762어제경민음.txt",
+      "name": "1762어제경민음.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 7446
+    },
+    {
+      "path": "corpus/eon/18/1763어제경세문답속록.txt",
+      "name": "1763어제경세문답속록.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 73914
+    },
+    {
+      "path": "corpus/eon/18/1764어제조훈.txt",
+      "name": "1764어제조훈.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 46104
+    },
+    {
+      "path": "corpus/eon/18/1765박통사신석언해.txt",
+      "name": "1765박통사신석언해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 116846
+    },
+    {
+      "path": "corpus/eon/18/1765어제경세편.txt",
+      "name": "1765어제경세편.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 42906
+    },
+    {
+      "path": "corpus/eon/18/1765어제백행원.txt",
+      "name": "1765어제백행원.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 10074
+    },
+    {
+      "path": "corpus/eon/18/1772십구사략언해.txt",
+      "name": "1772십구사략언해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 103466
+    },
+    {
+      "path": "corpus/eon/18/1775역어유해보1.txt",
+      "name": "1775역어유해보1.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 22772
+    },
+    {
+      "path": "corpus/eon/18/1775역어유해보2.txt",
+      "name": "1775역어유해보2.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 28064
+    },
+    {
+      "path": "corpus/eon/18/1776염불보권문_해인사.txt",
+      "name": "1776염불보권문_해인사.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 56252
+    },
+    {
+      "path": "corpus/eon/18/1776효유윤음.txt",
+      "name": "1776효유윤음.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 5048
+    },
+    {
+      "path": "corpus/eon/18/1777명의록.txt",
+      "name": "1777명의록.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 243342
+    },
+    {
+      "path": "corpus/eon/18/1777소아론.txt",
+      "name": "1777소아론.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 5006
+    },
+    {
+      "path": "corpus/eon/18/1777팔세아.txt",
+      "name": "1777팔세아.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 4628
+    },
+    {
+      "path": "corpus/eon/18/1778방언유석.txt",
+      "name": "1778방언유석.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 102816
+    },
+    {
+      "path": "corpus/eon/18/1778속명의록.txt",
+      "name": "1778속명의록.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 74804
+    },
+    {
+      "path": "corpus/eon/18/1781왜어유해.txt",
+      "name": "1781왜어유해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 60226
+    },
+    {
+      "path": "corpus/eon/18/1781제주대정정의윤음.txt",
+      "name": "1781제주대정정의윤음.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 5058
+    },
+    {
+      "path": "corpus/eon/18/1782유경기대소민인등윤음.txt",
+      "name": "1782유경기대소민인등윤음.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 8366
+    },
+    {
+      "path": "corpus/eon/18/1782유중외대소신서윤음.txt",
+      "name": "1782유중외대소신서윤음.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 18418
+    },
+    {
+      "path": "corpus/eon/18/1783유경기민인윤음.txt",
+      "name": "1783유경기민인윤음.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 7466
+    },
+    {
+      "path": "corpus/eon/18/1783유경기홍충도감사수령등윤음.txt",
+      "name": "1783유경기홍충도감사수령등윤음.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 6014
+    },
+    {
+      "path": "corpus/eon/18/1783유경상도관찰사급진읍수령윤음.txt",
+      "name": "1783유경상도관찰사급진읍수령윤음.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 6454
+    },
+    {
+      "path": "corpus/eon/18/1783유김재인서.txt",
+      "name": "1783유김재인서.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 8236
+    },
+    {
+      "path": "corpus/eon/18/1783유원춘도윤음.txt",
+      "name": "1783유원춘도윤음.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 10518
+    },
+    {
+      "path": "corpus/eon/18/1783유육도윤음.txt",
+      "name": "1783유육도윤음.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 7180
+    },
+    {
+      "path": "corpus/eon/18/1783유함경도민인윤음.txt",
+      "name": "1783유함경도민인윤음.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 9984
+    },
+    {
+      "path": "corpus/eon/18/1783유호남민인등윤음.txt",
+      "name": "1783유호남민인등윤음.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 17018
+    },
+    {
+      "path": "corpus/eon/18/1783유호서대소민인등윤음.txt",
+      "name": "1783유호서대소민인등윤음.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 8288
+    },
+    {
+      "path": "corpus/eon/18/1783자휼전칙.txt",
+      "name": "1783자휼전칙.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 10044
+    },
+    {
+      "path": "corpus/eon/18/1784사기호별진자윤음.txt",
+      "name": "1784사기호별진자윤음.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 5338
+    },
+    {
+      "path": "corpus/eon/18/1784왕세자책례후윤음.txt",
+      "name": "1784왕세자책례후윤음.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 6538
+    },
+    {
+      "path": "corpus/eon/18/1785유제주민인윤음.txt",
+      "name": "1785유제주민인윤음.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 6152
+    },
+    {
+      "path": "corpus/eon/18/1787병학지남.txt",
+      "name": "1787병학지남.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 46138
+    },
+    {
+      "path": "corpus/eon/18/1788가체신금사목.txt",
+      "name": "1788가체신금사목.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 14698
+    },
+    {
+      "path": "corpus/eon/18/1788유함경도민인윤음.txt",
+      "name": "1788유함경도민인윤음.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 5274
+    },
+    {
+      "path": "corpus/eon/18/1790몽어노걸대.txt",
+      "name": "1790몽어노걸대.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 68000
+    },
+    {
+      "path": "corpus/eon/18/1790몽어유해_상.txt",
+      "name": "1790몽어유해_상.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 34672
+    },
+    {
+      "path": "corpus/eon/18/1790몽어유해_하.txt",
+      "name": "1790몽어유해_하.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 34832
+    },
+    {
+      "path": "corpus/eon/18/1790몽어유해보.txt",
+      "name": "1790몽어유해보.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 33282
+    },
+    {
+      "path": "corpus/eon/18/1790무예도보통지.txt",
+      "name": "1790무예도보통지.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 51566
+    },
+    {
+      "path": "corpus/eon/18/1790인어대방.txt",
+      "name": "1790인어대방.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 77570
+    },
+    {
+      "path": "corpus/eon/18/1790첩해몽어.txt",
+      "name": "1790첩해몽어.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 21868
+    },
+    {
+      "path": "corpus/eon/18/1792유양주포천부로민인등서.txt",
+      "name": "1792유양주포천부로민인등서.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 3178
+    },
+    {
+      "path": "corpus/eon/18/1792증수무원록.txt",
+      "name": "1792증수무원록.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 155490
+    },
+    {
+      "path": "corpus/eon/18/1793제주대정정의윤음.txt",
+      "name": "1793제주대정정의윤음.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 5186
+    },
+    {
+      "path": "corpus/eon/18/1794유제도도신윤음.txt",
+      "name": "1794유제도도신윤음.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 8564
+    },
+    {
+      "path": "corpus/eon/18/1794유호남육읍윤음.txt",
+      "name": "1794유호남육읍윤음.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 5264
+    },
+    {
+      "path": "corpus/eon/18/1795양로무농윤음.txt",
+      "name": "1795양로무농윤음.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 8864
+    },
+    {
+      "path": "corpus/eon/18/1795중간노걸대언해.txt",
+      "name": "1795중간노걸대언해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 83688
+    },
+    {
+      "path": "corpus/eon/18/1796경신록언석.txt",
+      "name": "1796경신록언석.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 135036
+    },
+    {
+      "path": "corpus/eon/18/1796전설인과곡.txt",
+      "name": "1796전설인과곡.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 42514
+    },
+    {
+      "path": "corpus/eon/18/1797오륜행실도.txt",
+      "name": "1797오륜행실도.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 124702
+    },
+    {
+      "path": "corpus/eon/18/1799제중신편.txt",
+      "name": "1799제중신편.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 7950
+    },
+    {
+      "path": "corpus/eon/19/18--광재물보.txt",
+      "name": "18--광재물보.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 83638
+    },
+    {
+      "path": "corpus/eon/19/18--여소학.txt",
+      "name": "18--여소학.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 150756
+    },
+    {
+      "path": "corpus/eon/19/18--징보언간독.txt",
+      "name": "18--징보언간독.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 40344
+    },
+    {
+      "path": "corpus/eon/19/18--청어노걸대.txt",
+      "name": "18--청어노걸대.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 74772
+    },
+    {
+      "path": "corpus/eon/19/18--태평광기.txt",
+      "name": "18--태평광기.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 85984
+    },
+    {
+      "path": "corpus/eon/19/18--한중록.txt",
+      "name": "18--한중록.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 351488
+    },
+    {
+      "path": "corpus/eon/19/1810몽유편.txt",
+      "name": "1810몽유편.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 8972
+    },
+    {
+      "path": "corpus/eon/19/1852태상감응편.txt",
+      "name": "1852태상감응편.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 212280
+    },
+    {
+      "path": "corpus/eon/19/1865쥬년쳠례광익.txt",
+      "name": "1865쥬년쳠례광익.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 110450
+    },
+    {
+      "path": "corpus/eon/19/1868의종손익.txt",
+      "name": "1868의종손익.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 12524
+    },
+    {
+      "path": "corpus/eon/19/1869규합총서.txt",
+      "name": "1869규합총서.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 52118
+    },
+    {
+      "path": "corpus/eon/19/1876남궁계적.txt",
+      "name": "1876남궁계적.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 22534
+    },
+    {
+      "path": "corpus/eon/19/1880과화존신.txt",
+      "name": "1880과화존신.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 15808
+    },
+    {
+      "path": "corpus/eon/19/1880삼성훈경.txt",
+      "name": "1880삼성훈경.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 24344
+    },
+    {
+      "path": "corpus/eon/19/1880한불자뎐.txt",
+      "name": "1880한불자뎐.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 437204
+    },
+    {
+      "path": "corpus/eon/19/1881조군영적지.txt",
+      "name": "1881조군영적지.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 44432
+    },
+    {
+      "path": "corpus/eon/19/1881척사윤음.txt",
+      "name": "1881척사윤음.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 5820
+    },
+    {
+      "path": "corpus/eon/19/1882경석자지문.txt",
+      "name": "1882경석자지문.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 7868
+    },
+    {
+      "path": "corpus/eon/19/1882셩교졀요.txt",
+      "name": "1882셩교졀요.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 99564
+    },
+    {
+      "path": "corpus/eon/19/1882유팔도사도기로인민등윤음.txt",
+      "name": "1882유팔도사도기로인민등윤음.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 3846
+    },
+    {
+      "path": "corpus/eon/19/1882척사윤음.txt",
+      "name": "1882척사윤음.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 14976
+    },
+    {
+      "path": "corpus/eon/19/1883명성경.txt",
+      "name": "1883명성경.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 27224
+    },
+    {
+      "path": "corpus/eon/19/1883이언언해.txt",
+      "name": "1883이언언해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 279236
+    },
+    {
+      "path": "corpus/eon/19/1883진교절요.txt",
+      "name": "1883진교절요.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 36254
+    },
+    {
+      "path": "corpus/eon/19/1884관성제군오륜경.txt",
+      "name": "1884관성제군오륜경.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 8674
+    },
+    {
+      "path": "corpus/eon/19/1884성교백문답.txt",
+      "name": "1884성교백문답.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 29114
+    },
+    {
+      "path": "corpus/eon/19/1884정몽유어.txt",
+      "name": "1884정몽유어.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 19794
+    },
+    {
+      "path": "corpus/eon/19/1886잠상집요.txt",
+      "name": "1886잠상집요.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 32000
+    },
+    {
+      "path": "corpus/eon/19/1887예수성교전서.txt",
+      "name": "1887예수성교전서.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 1670672
+    },
+    {
+      "path": "corpus/eon/19/1889사민필지.txt",
+      "name": "1889사민필지.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 186066
+    },
+    {
+      "path": "corpus/eon/19/1889여사수지.txt",
+      "name": "1889여사수지.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 20218
+    },
+    {
+      "path": "corpus/eon/19/1892성경직해.txt",
+      "name": "1892성경직해.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 1094724
+    },
+    {
+      "path": "corpus/eon/19/1894천자문_이무실.txt",
+      "name": "1894천자문_이무실.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 17450
+    },
+    {
+      "path": "corpus/eon/19/1894텬로력뎡1.txt",
+      "name": "1894텬로력뎡1.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 118926
+    },
+    {
+      "path": "corpus/eon/19/1894텬로력뎡2.txt",
+      "name": "1894텬로력뎡2.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 120872
+    },
+    {
+      "path": "corpus/eon/19/1894훈아진언.txt",
+      "name": "1894훈아진언.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 94380
+    },
+    {
+      "path": "corpus/eon/19/1895국민소학독본.txt",
+      "name": "1895국민소학독본.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 75878
+    },
+    {
+      "path": "corpus/eon/19/1895국한회어.txt",
+      "name": "1895국한회어.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 440086
+    },
+    {
+      "path": "corpus/eon/19/1895소학독본.txt",
+      "name": "1895소학독본.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 31166
+    },
+    {
+      "path": "corpus/eon/19/1895진리편독삼자경.txt",
+      "name": "1895진리편독삼자경.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 85752
+    },
+    {
+      "path": "corpus/eon/19/1895치명일기.txt",
+      "name": "1895치명일기.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 142786
+    },
+    {
+      "path": "corpus/eon/19/1896대죠션독립협회회보.txt",
+      "name": "1896대죠션독립협회회보.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 60664
+    },
+    {
+      "path": "corpus/eon/19/1896독립신문.txt",
+      "name": "1896독립신문.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 4366286
+    },
+    {
+      "path": "corpus/eon/19/1896신정심상소학.txt",
+      "name": "1896신정심상소학.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 67738
+    },
+    {
+      "path": "corpus/eon/19/1897국문정리.txt",
+      "name": "1897국문정리.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 9860
+    },
+    {
+      "path": "corpus/eon/19/1897대조선독립협회회보.txt",
+      "name": "1897대조선독립협회회보.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 313392
+    },
+    {
+      "path": "corpus/eon/19/1897쥬교요지.txt",
+      "name": "1897쥬교요지.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 98150
+    },
+    {
+      "path": "corpus/eon/19/1897증남포목포각국죠계쟝졍.txt",
+      "name": "1897증남포목포각국죠계쟝졍.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 21838
+    },
+    {
+      "path": "corpus/eon/19/1897한영자전.txt",
+      "name": "1897한영자전.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 1672438
+    },
+    {
+      "path": "corpus/eon/19/1898매일신문1.txt",
+      "name": "1898매일신문1.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 185088
+    },
+    {
+      "path": "corpus/eon/19/1898매일신문2.txt",
+      "name": "1898매일신문2.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 263378
+    },
+    {
+      "path": "corpus/eon/19/1898매일신문3.txt",
+      "name": "1898매일신문3.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 261748
+    },
+    {
+      "path": "corpus/eon/19/1898매일신문4.txt",
+      "name": "1898매일신문4.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 212698
+    },
+    {
+      "path": "corpus/eon/19/1898매일신문5.txt",
+      "name": "1898매일신문5.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 319786
+    },
+    {
+      "path": "corpus/eon/19/1898시편촬요.txt",
+      "name": "1898시편촬요.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 233022
+    },
+    {
+      "path": "corpus/eon/19/1898협성회회보.txt",
+      "name": "1898협성회회보.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 142196
+    },
+    {
+      "path": "corpus/eon/19/1900신약전서.txt",
+      "name": "1900신약전서.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 462580
+    },
+    {
+      "path": "corpus/eon/20/1901신학월보1.txt",
+      "name": "1901신학월보1.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 588410
+    },
+    {
+      "path": "corpus/eon/20/1902신학월보2.txt",
+      "name": "1902신학월보2.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 583738
+    },
+    {
+      "path": "corpus/eon/20/1903신학월보3.txt",
+      "name": "1903신학월보3.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 587296
+    },
+    {
+      "path": "corpus/eon/20/1904대한매일신보.txt",
+      "name": "1904대한매일신보.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 2573384
+    },
+    {
+      "path": "corpus/eon/20/1904신학월보4.txt",
+      "name": "1904신학월보4.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 717130
+    },
+    {
+      "path": "corpus/eon/20/1905기해일기.txt",
+      "name": "1905기해일기.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 158842
+    },
+    {
+      "path": "corpus/eon/20/1906경향보감1.txt",
+      "name": "1906경향보감1.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 612510
+    },
+    {
+      "path": "corpus/eon/20/1906경향신문1.txt",
+      "name": "1906경향신문1.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 433586
+    },
+    {
+      "path": "corpus/eon/20/1907경향보감2.txt",
+      "name": "1907경향보감2.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 625314
+    },
+    {
+      "path": "corpus/eon/20/1907경향신문2.txt",
+      "name": "1907경향신문2.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 381264
+    },
+    {
+      "path": "corpus/eon/20/1907신학월보5.txt",
+      "name": "1907신학월보5.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 319778
+    },
+    {
+      "path": "corpus/eon/20/1908경향보감3.txt",
+      "name": "1908경향보감3.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 777054
+    },
+    {
+      "path": "corpus/eon/20/1908신정천자문.txt",
+      "name": "1908신정천자문.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 17272
+    },
+    {
+      "path": "corpus/eon/20/1908신학월보6.txt",
+      "name": "1908신학월보6.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 407942
+    },
+    {
+      "path": "corpus/eon/20/1909신학월보7.txt",
+      "name": "1909신학월보7.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 402944
+    },
+    {
+      "path": "corpus/eon/20/1910경향보감4.txt",
+      "name": "1910경향보감4.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 627618
+    },
+    {
+      "path": "corpus/eon/20/1910역대천자문.txt",
+      "name": "1910역대천자문.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 17206
+    },
+    {
+      "path": "corpus/eon/20/1913부별천자문.txt",
+      "name": "1913부별천자문.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 21264
+    },
+    {
+      "path": "corpus/eon/20/1916통학경편.txt",
+      "name": "1916통학경편.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 23174
+    },
+    {
+      "path": "corpus/eon/20/1918초학요선.txt",
+      "name": "1918초학요선.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 41680
+    },
+    {
+      "path": "corpus/eon/20/1918한자용법.txt",
+      "name": "1918한자용법.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 42474
+    },
+    {
+      "path": "corpus/eon/20/192-훈몽배운.txt",
+      "name": "192-훈몽배운.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 28400
+    },
+    {
+      "path": "corpus/eon/20/1923속수한문훈몽.txt",
+      "name": "1923속수한문훈몽.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 9978
+    },
+    {
+      "path": "corpus/eon/20/1923演經坐談.txt",
+      "name": "1923演經坐談.txt",
+      "corpus": "eon",
+      "ext": "txt",
+      "size": 273132
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1446훈민정음언해세종서(河崎).txt",
+      "name": "1446훈민정음언해세종서(河崎).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 474
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1446訓民正音(0國).txt",
+      "name": "1446訓民正音(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 11184
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1446訓民正音(1世).txt",
+      "name": "1446訓民正音(1世).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 23904
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1447月印千江之曲(0國).txt",
+      "name": "1447月印千江之曲(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 49466
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1447釋譜詳節03(2高).txt",
+      "name": "1447釋譜詳節03(2高).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 29556
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1447釋譜詳節06(2高).txt",
+      "name": "1447釋譜詳節06(2高).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 60726
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1447釋譜詳節09(2高).txt",
+      "name": "1447釋譜詳節09(2高).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 49808
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1447釋譜詳節11(0國).txt",
+      "name": "1447釋譜詳節11(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 43666
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1447釋譜詳節13(2高).txt",
+      "name": "1447釋譜詳節13(2高).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 82272
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1447釋譜詳節19(2高).txt",
+      "name": "1447釋譜詳節19(2高).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 56338
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1447釋譜詳節20(2高).txt",
+      "name": "1447釋譜詳節20(2高).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 59182
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1447釋譜詳節21(2高).txt",
+      "name": "1447釋譜詳節21(2高).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 66950
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1447釋譜詳節23(0國).txt",
+      "name": "1447釋譜詳節23(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 62650
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1447釋譜詳節24(0國).txt",
+      "name": "1447釋譜詳節24(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 58216
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1447龍飛御天歌(0國).txt",
+      "name": "1447龍飛御天歌(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 548126
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1449舍利靈應記.txt",
+      "name": "1449舍利靈應記.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 832
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1459월인석보13,법화경언해2pararrel.txt",
+      "name": "1459월인석보13,법화경언해2pararrel.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 200880
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1459月印釋譜01(0國).txt",
+      "name": "1459月印釋譜01(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 87426
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1459月印釋譜02(0國).txt",
+      "name": "1459月印釋譜02(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 88046
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1459月印釋譜04(2高).txt",
+      "name": "1459月印釋譜04(2高).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 73658
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1459月印釋譜07(0國).txt",
+      "name": "1459月印釋譜07(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 81320
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1459月印釋譜08(0國).txt",
+      "name": "1459月印釋譜08(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 119068
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1459月印釋譜09(0國).txt",
+      "name": "1459月印釋譜09(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 73196
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1459月印釋譜10(0國).txt",
+      "name": "1459月印釋譜10(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 132938
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1459月印釋譜11(0國).txt",
+      "name": "1459月印釋譜11(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 168832
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1459月印釋譜12(0國).txt",
+      "name": "1459月印釋譜12(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 60528
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1459月印釋譜13(0國).txt",
+      "name": "1459月印釋譜13(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 93696
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1459月印釋譜14(0國).txt",
+      "name": "1459月印釋譜14(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 100716
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1459月印釋譜15(0國).txt",
+      "name": "1459月印釋譜15(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 100976
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1459月印釋譜17(0國).txt",
+      "name": "1459月印釋譜17(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 93920
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1459月印釋譜18(0國).txt",
+      "name": "1459月印釋譜18(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 102292
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1459月印釋譜19(2高).txt",
+      "name": "1459月印釋譜19(2高).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 146202
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1459月印釋譜20(0國).txt",
+      "name": "1459月印釋譜20(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 125738
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1459月印釋譜20(1世, 精製).txt",
+      "name": "1459月印釋譜20(1世, 精製).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 122536
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1459月印釋譜21(0國).txt",
+      "name": "1459月印釋譜21(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 174632
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1459月印釋譜22(0國).txt",
+      "name": "1459月印釋譜22(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 70092
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1459月印釋譜23(0國).txt",
+      "name": "1459月印釋譜23(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 114502
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1459月印釋譜25(0國).txt",
+      "name": "1459月印釋譜25(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 167594
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1461楞嚴經諺解(0國).txt",
+      "name": "1461楞嚴經諺解(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 1644872
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1461楞嚴經諺解(1世, 1-9精製 10未精製).txt",
+      "name": "1461楞嚴經諺解(1世, 1-9精製 10未精製).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 1613052
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1461楞嚴經諺解(2高, 精製).txt",
+      "name": "1461楞嚴經諺解(2高, 精製).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 1875376
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1463法華經諺解(0國, 1,3-7).txt",
+      "name": "1463法華經諺解(0國, 1,3-7).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 1631972
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1463法華經諺解(1世, 精製, 2[174a]-7, 5,7未精製).txt",
+      "name": "1463法華經諺解(1世, 精製, 2[174a]-7, 5,7未精製).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 1469206
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1463法華經諺解(2高, 2[174a]~7).txt",
+      "name": "1463法華經諺解(2高, 2[174a]~7).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 1714582
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1464a禪宗永嘉集上(#774)(0國).txt",
+      "name": "1464a禪宗永嘉集上(#774)(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 192294
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1464a禪宗永嘉集下(#1163)(0國).txt",
+      "name": "1464a禪宗永嘉集下(#1163)(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 232478
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1464a禪宗永嘉集下(#774)(0國).txt",
+      "name": "1464a禪宗永嘉集下(#774)(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 232402
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1464b佛說阿彌陀經諺解(0國).txt",
+      "name": "1464b佛說阿彌陀經諺解(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 36484
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1464b佛說阿彌陀經諺解(2高←0國).txt",
+      "name": "1464b佛說阿彌陀經諺解(2高←0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 36118
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1464c金剛經諺解(0國).txt",
+      "name": "1464c金剛經諺解(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 232862
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1464d般若心經諺解(0國).txt",
+      "name": "1464d般若心經諺解(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 93274
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1464e五臺山上院寺重創勸善文(0國).txt",
+      "name": "1464e五臺山上院寺重創勸善文(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 25636
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1465圓覺經諺解(0國).txt",
+      "name": "1465圓覺經諺解(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 1164766
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1466救急方諺解(2高).txt",
+      "name": "1466救急方諺解(2高).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 197412
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1467a蒙山和尙法語略錄(#1012호)(0國).txt",
+      "name": "1467a蒙山和尙法語略錄(#1012호)(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 32
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1467a蒙山和尙法語略錄(#1172)(0國).txt",
+      "name": "1467a蒙山和尙法語略錄(#1172)(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 30
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1467a蒙山和尙法語略錄(#769)(0國).txt",
+      "name": "1467a蒙山和尙法語略錄(#769)(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 63756
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1467b牧牛子修心訣(#770)(0國).txt",
+      "name": "1467b牧牛子修心訣(#770)(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 68140
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1467b牧牛子修心訣(#934)(0國).txt",
+      "name": "1467b牧牛子修心訣(#934)(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 69118
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1467b牧牛子修心訣(2高).txt",
+      "name": "1467b牧牛子修心訣(2高).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 53444
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1467b牧牛子修心訣(杉山).txt",
+      "name": "1467b牧牛子修心訣(杉山).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 50036
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1467c四法語諺解(#770)(0國).txt",
+      "name": "1467c四法語諺解(#770)(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 13432
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1467c四法語諺解(#934)(0國).txt",
+      "name": "1467c四法語諺解(#934)(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 13368
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1467c四法語諺解(2高).txt",
+      "name": "1467c四法語諺解(2高).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 10760
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1481b杜詩諺解(2高 ←1世_조남호).txt",
+      "name": "1481b杜詩諺解(2高 ←1世_조남호).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 1225348
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1481b杜詩諺解06(1世).txt",
+      "name": "1481b杜詩諺解06(1世).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 42598
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1481b杜詩諺解07(1世).txt",
+      "name": "1481b杜詩諺解07(1世).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 34736
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1481b杜詩諺解08(1世).txt",
+      "name": "1481b杜詩諺解08(1世).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 55732
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1481b杜詩諺解10(1世).txt",
+      "name": "1481b杜詩諺解10(1世).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 41764
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1481b杜詩諺解11(0國).txt",
+      "name": "1481b杜詩諺解11(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 51644
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1481b杜詩諺解11(1世).txt",
+      "name": "1481b杜詩諺解11(1世).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 46670
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1481b杜詩諺解12(0國).txt",
+      "name": "1481b杜詩諺解12(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 44904
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1481b杜詩諺解13(0國).txt",
+      "name": "1481b杜詩諺解13(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 64722
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1481b杜詩諺解13(杉山).txt",
+      "name": "1481b杜詩諺解13(杉山).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 60244
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1481b杜詩諺解14(1世).txt",
+      "name": "1481b杜詩諺解14(1世).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 32456
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1481b杜詩諺解15(1世).txt",
+      "name": "1481b杜詩諺解15(1世).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 47014
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1481b杜詩諺解16(1世).txt",
+      "name": "1481b杜詩諺解16(1世).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 62886
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1481b杜詩諺解17(1世).txt",
+      "name": "1481b杜詩諺解17(1世).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 35284
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1481b杜詩諺解19(1世).txt",
+      "name": "1481b杜詩諺解19(1世).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 39882
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1481b杜詩諺解20(1世).txt",
+      "name": "1481b杜詩諺解20(1世).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 41504
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1481b杜詩諺解21(0國).txt",
+      "name": "1481b杜詩諺解21(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 55430
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1481b杜詩諺解21(1世).txt",
+      "name": "1481b杜詩諺解21(1世).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 34838
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1481b杜詩諺解22(1世).txt",
+      "name": "1481b杜詩諺解22(1世).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 47552
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1481b杜詩諺解23(1世).txt",
+      "name": "1481b杜詩諺解23(1世).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 43280
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1481b杜詩諺解24(1世).txt",
+      "name": "1481b杜詩諺解24(1世).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 45276
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1481b杜詩諺解25(1世).txt",
+      "name": "1481b杜詩諺解25(1世).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 47968
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1482南明集諺解(1世).txt",
+      "name": "1482南明集諺解(1世).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 247444
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1482南明集諺解(2高).txt",
+      "name": "1482南明集諺解(2高).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 349922
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1482金剛經三家解(0國).txt",
+      "name": "1482金剛經三家解(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 683514
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1482金剛經三家解(1世).txt",
+      "name": "1482金剛經三家解(1世).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 390564
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1482金剛經三家解(2高).txt",
+      "name": "1482金剛經三家解(2高).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 353624
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1485b五大眞言(0國).txt",
+      "name": "1485b五大眞言(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 185556
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1485c靈驗略抄(0國).txt",
+      "name": "1485c靈驗略抄(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 26394
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1485c靈驗略抄(2高).txt",
+      "name": "1485c靈驗略抄(2高).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 23786
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1485c靈驗略抄(杉山).txt",
+      "name": "1485c靈驗略抄(杉山).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 21716
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1485佛頂心經(杉山).txt",
+      "name": "1485佛頂心經(杉山).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 22178
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1489救急簡易方6(#1236-1)(0國).txt",
+      "name": "1489救急簡易方6(#1236-1)(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 66800
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1489救急簡易方6(#1236-2)(0國).txt",
+      "name": "1489救急簡易方6(#1236-2)(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 73348
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1496b眞言勸供(0國).txt",
+      "name": "1496b眞言勸供(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 60424
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1496b眞言勸供(1世).txt",
+      "name": "1496b眞言勸供(1世).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 34182
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1496b眞言勸供(2高).txt",
+      "name": "1496b眞言勸供(2高).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 46950
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/15/1496c三壇施食文(0國).txt",
+      "name": "1496c三壇施食文(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 44920
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/16/1517瘡疹方撮要諺解(2高).txt",
+      "name": "1517瘡疹方撮要諺解(2高).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 79876
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/16/1517老朴集覽單字解.txt",
+      "name": "1517老朴集覽單字解.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 29620
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/16/1517飜譯朴通事(上)(2高).txt",
+      "name": "1517飜譯朴通事(上)(2高).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 92006
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/16/1517飜譯老乞大(上下)(2高←허재영).txt",
+      "name": "1517飜譯老乞大(上下)(2高←허재영).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 222046
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/16/1518__小學3,4(소학언해·어제소학 pararrel).txt",
+      "name": "1518__小學3,4(소학언해·어제소학 pararrel).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 133094
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/16/1518二倫行實圖(0國).txt",
+      "name": "1518二倫行實圖(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 59612
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/16/1518呂氏鄕約諺解(1世).txt",
+      "name": "1518呂氏鄕約諺解(1世).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 31604
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/16/1518呂氏鄕約諺解(화산문고본)(1世).txt",
+      "name": "1518呂氏鄕約諺解(화산문고본)(1世).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 32232
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/16/1518呂氏鄕約諺解_교서관본(2高).txt",
+      "name": "1518呂氏鄕約諺解_교서관본(2高).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 33318
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/16/1518正俗諺解(2高).txt",
+      "name": "1518正俗諺解(2高).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 25648
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/16/1525簡易_瘟方(0國).txt",
+      "name": "1525簡易_瘟方(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 22246
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/16/1590孝經諺解(河崎).txt",
+      "name": "1590孝經諺解(河崎).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 18448
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/16/1590論語諺解1(#1109-3)(0國).txt",
+      "name": "1590論語諺解1(#1109-3)(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 72524
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/16/1590論語諺解2(#1109-3)(0國).txt",
+      "name": "1590論語諺解2(#1109-3)(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 88038
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/16/1590論語諺解3(#1004-2-4)(0國).txt",
+      "name": "1590論語諺解3(#1004-2-4)(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 39306
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/toned_20141106/16/1590論語諺解3(#1109-3)(0國).txt",
+      "name": "1590論語諺解3(#1109-3)(0國).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 103862
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1447釋譜詳節03.txt",
+      "name": "1447釋譜詳節03.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 301638
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1447釋譜詳節06.txt",
+      "name": "1447釋譜詳節06.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 559518
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1447釋譜詳節09.txt",
+      "name": "1447釋譜詳節09.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 61858
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1447釋譜詳節11.txt",
+      "name": "1447釋譜詳節11.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 74228
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1447釋譜詳節13.txt",
+      "name": "1447釋譜詳節13.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 87594
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1447釋譜詳節19.txt",
+      "name": "1447釋譜詳節19.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 62690
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1447釋譜詳節20.txt",
+      "name": "1447釋譜詳節20.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 54416
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1447釋譜詳節21.txt",
+      "name": "1447釋譜詳節21.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 72980
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1447釋譜詳節23.txt",
+      "name": "1447釋譜詳節23.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 223020
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1447釋譜詳節24.txt",
+      "name": "1447釋譜詳節24.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 211544
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1447龍飛御天歌.txt",
+      "name": "1447龍飛御天歌.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 32038
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1459月印釋譜01.txt",
+      "name": "1459月印釋譜01.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 1833682
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1459月印釋譜02.txt",
+      "name": "1459月印釋譜02.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 71438
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1459月印釋譜04.txt",
+      "name": "1459月印釋譜04.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 845112
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1459月印釋譜07.txt",
+      "name": "1459月印釋譜07.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 149926
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1459月印釋譜08.txt",
+      "name": "1459月印釋譜08.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 183082
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1459月印釋譜09.txt",
+      "name": "1459月印釋譜09.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 75550
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1459月印釋譜10.txt",
+      "name": "1459月印釋譜10.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 122790
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1459月印釋譜11.txt",
+      "name": "1459月印釋譜11.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 554188
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1459月印釋譜12.txt",
+      "name": "1459月印釋譜12.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 77408
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1459月印釋譜13.txt",
+      "name": "1459月印釋譜13.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 126572
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1459月印釋譜14.txt",
+      "name": "1459月印釋譜14.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 163318
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1459月印釋譜15.txt",
+      "name": "1459月印釋譜15.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 113084
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1459月印釋譜17.txt",
+      "name": "1459月印釋譜17.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 281380
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1459月印釋譜18.txt",
+      "name": "1459月印釋譜18.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 238462
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1459月印釋譜19.txt",
+      "name": "1459月印釋譜19.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 148946
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1459月印釋譜20.txt",
+      "name": "1459月印釋譜20.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 157716
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1459月印釋譜21.txt",
+      "name": "1459月印釋譜21.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 248304
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1459月印釋譜22.txt",
+      "name": "1459月印釋譜22.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 77392
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1459月印釋譜23.txt",
+      "name": "1459月印釋譜23.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 411196
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1459月印釋譜25.txt",
+      "name": "1459月印釋譜25.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 434546
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1461楞嚴經諺解1-10.txt",
+      "name": "1461楞嚴經諺解1-10.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 1861662
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1463法華經諺解1.txt",
+      "name": "1463法華經諺解1.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 378840
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1463法華經諺解2.txt",
+      "name": "1463法華經諺解2.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 616732
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1463法華經諺解3.txt",
+      "name": "1463法華經諺解3.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 354260
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1463法華經諺解4.txt",
+      "name": "1463法華經諺解4.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 373436
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1463法華經諺解5.txt",
+      "name": "1463法華經諺解5.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 210250
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1463法華經諺解6.txt",
+      "name": "1463法華經諺解6.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 327990
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1463法華經諺解7.txt",
+      "name": "1463法華經諺解7.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 295096
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1464五臺山上院寺重創勸善文.txt",
+      "name": "1464五臺山上院寺重創勸善文.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 3802
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1467蒙山和尙法語略錄.txt",
+      "name": "1467蒙山和尙法語略錄.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 34850
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1475：1573內訓(宣祖6年 重刊本).txt",
+      "name": "1475：1573內訓(宣祖6年 重刊本).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 343632
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1481三綱行實圖.txt",
+      "name": "1481三綱行實圖.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 117640
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1481杜詩諺解3,5-11,14-25.txt",
+      "name": "1481杜詩諺解3,5-11,14-25.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 947252
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1482南明集諺解.txt",
+      "name": "1482南明集諺解.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 302914
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1482金剛經三家解.txt",
+      "name": "1482金剛經三家解.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 1213008
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1496六祖大師法寶壇經_上中下.txt",
+      "name": "1496六祖大師法寶壇經_上中下.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 307204
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1518飜譯小學3-4,6-10.txt",
+      "name": "1518飜譯小學3-4,6-10.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 602414
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1588小學諺解1-6.txt",
+      "name": "1588小學諺解1-6.txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 645136
+    },
+    {
+      "path": "corpus/kawasaki/kawasaki/uniconc_data/1590孝經諺解(untoned uniconc).txt",
+      "name": "1590孝經諺解(untoned uniconc).txt",
+      "corpus": "kawasaki",
+      "ext": "txt",
+      "size": 14192
+    }
+  ]
+}

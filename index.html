@@ -1,0 +1,656 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Middle Korean Corpus Search</title>
+  <style>
+    :root {
+      --bg: #f3efe6;
+      --panel: #fffdf7;
+      --ink: #1f1b16;
+      --muted: #645d54;
+      --line: #d9d0c4;
+      --accent: #8c2f12;
+      --accent-2: #b55f1f;
+      --hit: #ffe38a;
+      --shadow: 0 8px 24px rgba(31, 27, 22, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Baskerville", "Apple SD Gothic Neo", "Noto Serif KR", serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 10% 5%, rgba(181,95,31,.12), transparent 35%),
+        radial-gradient(circle at 95% 0%, rgba(140,47,18,.12), transparent 40%),
+        linear-gradient(180deg, #f8f3e8, var(--bg));
+      min-height: 100vh;
+    }
+
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 24px 16px 64px;
+    }
+
+    .hero {
+      background: linear-gradient(180deg, rgba(255,255,255,.88), rgba(255,253,247,.95));
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 18px 18px 14px;
+      box-shadow: var(--shadow);
+      margin-bottom: 14px;
+    }
+
+    h1 {
+      margin: 0 0 6px;
+      font-size: clamp(1.25rem, 2.5vw, 1.9rem);
+      letter-spacing: .01em;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.35;
+      font-size: .95rem;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 14px;
+      box-shadow: var(--shadow);
+      margin-bottom: 14px;
+    }
+
+    .grid {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: 1.5fr 0.7fr 0.7fr;
+    }
+
+    .field {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    label {
+      font-size: .85rem;
+      color: var(--muted);
+    }
+
+    input[type="text"], input[type="number"] {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 10px 12px;
+      font: inherit;
+      background: #fff;
+      color: var(--ink);
+    }
+
+    input[type="checkbox"] { transform: translateY(1px); }
+
+    .row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    .checks {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+
+    .checks label {
+      color: inherit;
+      display: inline-flex;
+      gap: 6px;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    button {
+      border: 1px solid var(--accent);
+      background: linear-gradient(180deg, var(--accent-2), var(--accent));
+      color: white;
+      font: inherit;
+      padding: 9px 14px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    button.secondary {
+      background: #fff;
+      color: var(--ink);
+      border-color: var(--line);
+    }
+
+    button:disabled {
+      opacity: .55;
+      cursor: not-allowed;
+    }
+
+    progress {
+      width: 100%;
+      height: 12px;
+      margin-top: 10px;
+    }
+
+    .status {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: .9rem;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .results-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: baseline;
+    }
+
+    .results-header p {
+      margin: 0;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+
+    .results {
+      display: grid;
+      gap: 12px;
+      margin-top: 12px;
+    }
+
+    .result {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fff;
+      overflow: hidden;
+    }
+
+    .result-head {
+      padding: 10px 12px;
+      background: #fbf7ee;
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .result-head a {
+      color: var(--accent);
+      text-decoration: none;
+      word-break: break-all;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: .8rem;
+      white-space: nowrap;
+    }
+
+    .snippet-list {
+      padding: 10px 12px 12px;
+      display: grid;
+      gap: 8px;
+    }
+
+    .snippet {
+      margin: 0;
+      white-space: pre-wrap;
+      word-break: break-word;
+      line-height: 1.35;
+      background: #fffdf8;
+      border: 1px solid #eee3cf;
+      border-radius: 8px;
+      padding: 8px 10px;
+      font-size: .95rem;
+    }
+
+    mark {
+      background: var(--hit);
+      color: inherit;
+      padding: 0 .05em;
+      border-radius: 3px;
+    }
+
+    .empty {
+      color: var(--muted);
+      margin: 10px 0 0;
+    }
+
+    code.inline {
+      background: #f1ebde;
+      border: 1px solid #e2d7c2;
+      border-radius: 6px;
+      padding: 0 5px;
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      font-size: .85em;
+    }
+
+    @media (max-width: 780px) {
+      .grid { grid-template-columns: 1fr; }
+      .result-head { align-items: flex-start; }
+      .meta { white-space: normal; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <h1>Middle Korean Corpus Search</h1>
+      <p class="subtitle">
+        GitHub Pages static search across the bundled <span class="inline-wrap"><code class="inline">eon</code></span> and
+        <span class="inline-wrap"><code class="inline">kawasaki</code></span> corpus files. Supports 한글 / 옛한글 / 한자 exact substring search.
+      </p>
+    </section>
+
+    <section class="panel">
+      <form id="search-form">
+        <div class="grid">
+          <div class="field">
+            <label for="query">검색어 (query)</label>
+            <input id="query" name="query" type="text" placeholder="예: ᄒᆞᆫ / 訓民 / 月印" required>
+          </div>
+          <div class="field">
+            <label for="result-limit">최대 결과 파일 수</label>
+            <input id="result-limit" name="result-limit" type="number" min="1" max="1000" value="100">
+          </div>
+          <div class="field">
+            <label for="snippets-per-file">파일당 예문 수</label>
+            <input id="snippets-per-file" name="snippets-per-file" type="number" min="1" max="20" value="3">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="checks">
+            <label><input type="checkbox" id="include-eon" checked> eon</label>
+            <label><input type="checkbox" id="include-kawasaki" checked> kawasaki</label>
+            <label><input type="checkbox" id="normalize" checked> Unicode NFC normalize</label>
+            <label><input type="checkbox" id="case-sensitive"> Case-sensitive</label>
+            <label><input type="checkbox" id="strip-xml" checked> Strip XML tags</label>
+          </div>
+        </div>
+
+        <div class="row">
+          <button id="search-btn" type="submit">Search</button>
+          <button id="stop-btn" type="button" class="secondary" disabled>Stop</button>
+          <button id="clear-cache-btn" type="button" class="secondary">Clear Cache</button>
+        </div>
+
+        <progress id="progress" value="0" max="1"></progress>
+        <div id="status" class="status" aria-live="polite"></div>
+      </form>
+    </section>
+
+    <section class="panel">
+      <div class="results-header">
+        <h2 style="margin:0;font-size:1.05rem;">Results</h2>
+        <p id="results-summary">Manifest loading...</p>
+      </div>
+      <div id="results" class="results"></div>
+      <p id="empty-state" class="empty">Enter a query and run a search.</p>
+    </section>
+  </div>
+
+  <script>
+    const state = {
+      manifest: null,
+      cache: new Map(),
+      running: false,
+      stopRequested: false,
+    };
+
+    const els = {
+      form: document.getElementById('search-form'),
+      query: document.getElementById('query'),
+      resultLimit: document.getElementById('result-limit'),
+      snippetsPerFile: document.getElementById('snippets-per-file'),
+      includeEon: document.getElementById('include-eon'),
+      includeKawasaki: document.getElementById('include-kawasaki'),
+      normalize: document.getElementById('normalize'),
+      caseSensitive: document.getElementById('case-sensitive'),
+      stripXml: document.getElementById('strip-xml'),
+      searchBtn: document.getElementById('search-btn'),
+      stopBtn: document.getElementById('stop-btn'),
+      clearCacheBtn: document.getElementById('clear-cache-btn'),
+      progress: document.getElementById('progress'),
+      status: document.getElementById('status'),
+      resultsSummary: document.getElementById('results-summary'),
+      results: document.getElementById('results'),
+      emptyState: document.getElementById('empty-state'),
+    };
+
+    function encodedPath(path) {
+      return path.split('/').map(encodeURIComponent).join('/');
+    }
+
+    function fmtBytes(bytes) {
+      if (bytes < 1024) return `${bytes} B`;
+      const units = ['KB', 'MB', 'GB'];
+      let n = bytes / 1024;
+      let i = 0;
+      while (n >= 1024 && i < units.length - 1) {
+        n /= 1024;
+        i++;
+      }
+      return `${n.toFixed(n >= 10 ? 1 : 2)} ${units[i]}`;
+    }
+
+    function escapeHtml(s) {
+      return s
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#39;');
+    }
+
+    function sleepFrame() {
+      return new Promise((resolve) => requestAnimationFrame(() => resolve()));
+    }
+
+    function decodeBuffer(buffer) {
+      const bytes = new Uint8Array(buffer);
+      if (bytes.length >= 2) {
+        if (bytes[0] === 0xFF && bytes[1] === 0xFE) {
+          return new TextDecoder('utf-16le').decode(bytes);
+        }
+        if (bytes[0] === 0xFE && bytes[1] === 0xFF) {
+          return new TextDecoder('utf-16be').decode(bytes);
+        }
+      }
+      if (bytes.length >= 3 && bytes[0] === 0xEF && bytes[1] === 0xBB && bytes[2] === 0xBF) {
+        return new TextDecoder('utf-8').decode(bytes);
+      }
+
+      const utf8 = new TextDecoder('utf-8').decode(bytes);
+      const sample = utf8.slice(0, 300);
+      const nulCount = [...sample].filter((c) => c === '\u0000').length;
+      if (nulCount > 10) {
+        return new TextDecoder('utf-16le').decode(bytes);
+      }
+      return utf8;
+    }
+
+    async function fetchAndPrepare(file, options) {
+      const cacheKey = `${file.path}|xml:${options.stripXml}`;
+      if (state.cache.has(cacheKey)) {
+        return state.cache.get(cacheKey);
+      }
+
+      const res = await fetch(encodedPath(file.path), { cache: 'force-cache' });
+      if (!res.ok) {
+        throw new Error(`HTTP ${res.status} for ${file.path}`);
+      }
+      const buffer = await res.arrayBuffer();
+      let text = decodeBuffer(buffer);
+      if (text.charCodeAt(0) === 0xFEFF) text = text.slice(1);
+      text = text.replace(/\r\n?/g, '\n');
+
+      if (options.stripXml && file.ext === 'xml') {
+        text = text
+          .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+          .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+          .replace(/<[^>]+>/g, ' ')
+          .replace(/[ \t]{2,}/g, ' ');
+      }
+
+      const value = { text };
+      state.cache.set(cacheKey, value);
+      return value;
+    }
+
+    function findOccurrences(text, needle, { caseSensitive, normalize, maxHits }) {
+      let haystack = text;
+      let q = needle;
+      if (normalize) {
+        haystack = haystack.normalize('NFC');
+        q = q.normalize('NFC');
+      }
+      if (!caseSensitive) {
+        haystack = haystack.toLocaleLowerCase();
+        q = q.toLocaleLowerCase();
+      }
+
+      const hits = [];
+      if (!q) return { hits, searchText: haystack, normalizedNeedle: q };
+
+      let from = 0;
+      while (hits.length < maxHits) {
+        const idx = haystack.indexOf(q, from);
+        if (idx === -1) break;
+        hits.push(idx);
+        from = idx + Math.max(q.length, 1);
+      }
+      return { hits, searchText: haystack, normalizedNeedle: q };
+    }
+
+    function makeSnippet(sourceText, hitIndex, hitLength, contextChars = 45) {
+      const start = Math.max(0, hitIndex - contextChars);
+      const end = Math.min(sourceText.length, hitIndex + hitLength + contextChars);
+      const prefix = (start > 0 ? '…' : '') + sourceText.slice(start, hitIndex);
+      const hit = sourceText.slice(hitIndex, hitIndex + hitLength);
+      const suffix = sourceText.slice(hitIndex + hitLength, end) + (end < sourceText.length ? '…' : '');
+      return `${escapeHtml(prefix)}<mark>${escapeHtml(hit)}</mark>${escapeHtml(suffix)}`;
+    }
+
+    function setRunning(running) {
+      state.running = running;
+      els.searchBtn.disabled = running;
+      els.stopBtn.disabled = !running;
+    }
+
+    function renderStatus(parts) {
+      els.status.innerHTML = parts.map((p) => `<span>${escapeHtml(p)}</span>`).join('');
+    }
+
+    function clearResults() {
+      els.results.innerHTML = '';
+      els.emptyState.style.display = '';
+    }
+
+    function appendResultCard(file, snippetsHtml, totalMatchesInFile) {
+      const card = document.createElement('article');
+      card.className = 'result';
+      const href = encodedPath(file.path);
+      card.innerHTML = `
+        <div class="result-head">
+          <a href="${href}" target="_blank" rel="noopener noreferrer">${escapeHtml(file.path)}</a>
+          <div class="meta">${escapeHtml(file.corpus)} · ${escapeHtml(file.ext.toUpperCase())} · ${fmtBytes(file.size)} · ${totalMatchesInFile} hit(s)</div>
+        </div>
+        <div class="snippet-list">${snippetsHtml.join('')}</div>
+      `;
+      els.results.appendChild(card);
+      els.emptyState.style.display = 'none';
+    }
+
+    async function loadManifest() {
+      if (state.manifest) return state.manifest;
+      const res = await fetch('manifest.json', { cache: 'no-cache' });
+      if (!res.ok) throw new Error(`Failed to load manifest.json (HTTP ${res.status})`);
+      state.manifest = await res.json();
+      els.resultsSummary.textContent =
+        `${state.manifest.fileCount} files · ${fmtBytes(state.manifest.totalBytes)} total`;
+      renderStatus([
+        `Manifest loaded: ${state.manifest.fileCount} files`,
+        `Total corpus size: ${fmtBytes(state.manifest.totalBytes)}`,
+        'Tip: repeated searches are faster after files are cached in the browser.',
+      ]);
+      return state.manifest;
+    }
+
+    async function runSearch(event) {
+      event.preventDefault();
+      if (state.running) return;
+
+      const rawQuery = els.query.value;
+      const query = rawQuery.trim();
+      if (!query) {
+        renderStatus(['Enter a query first.']);
+        return;
+      }
+
+      const manifest = await loadManifest();
+      const include = new Set();
+      if (els.includeEon.checked) include.add('eon');
+      if (els.includeKawasaki.checked) include.add('kawasaki');
+      if (include.size === 0) {
+        renderStatus(['Select at least one corpus (eon or kawasaki).']);
+        return;
+      }
+
+      const resultLimit = Math.max(1, Math.min(1000, Number(els.resultLimit.value) || 100));
+      const snippetsPerFile = Math.max(1, Math.min(20, Number(els.snippetsPerFile.value) || 3));
+      const options = {
+        caseSensitive: els.caseSensitive.checked,
+        normalize: els.normalize.checked,
+        stripXml: els.stripXml.checked,
+      };
+
+      const selectedFiles = manifest.files.filter((f) => include.has(f.corpus));
+      const totalBytes = selectedFiles.reduce((sum, f) => sum + f.size, 0);
+      let scannedBytes = 0;
+      let scannedFiles = 0;
+      let matchedFiles = 0;
+      let totalHits = 0;
+      let errorFiles = 0;
+
+      clearResults();
+      setRunning(true);
+      state.stopRequested = false;
+      els.progress.max = Math.max(totalBytes, 1);
+      els.progress.value = 0;
+
+      const t0 = performance.now();
+
+      renderStatus([
+        `Searching ${selectedFiles.length} files`,
+        `Scope: ${fmtBytes(totalBytes)}`,
+        'Scanning in browser (no server).',
+      ]);
+
+      for (const file of selectedFiles) {
+        if (state.stopRequested) break;
+
+        try {
+          const { text } = await fetchAndPrepare(file, options);
+          const search = findOccurrences(text, query, {
+            ...options,
+            maxHits: Math.max(snippetsPerFile, 50),
+          });
+
+          if (search.hits.length > 0) {
+            matchedFiles++;
+            totalHits += search.hits.length;
+
+            const snippetHitLength = options.normalize
+              ? (options.caseSensitive ? query.normalize('NFC').length : query.normalize('NFC').toLocaleLowerCase().length)
+              : (options.caseSensitive ? query.length : query.toLocaleLowerCase().length);
+
+            const sourceForSnippet = search.searchText;
+            const snippets = search.hits.slice(0, snippetsPerFile).map((idx) => {
+              return `<p class="snippet">${makeSnippet(sourceForSnippet, idx, Math.max(snippetHitLength, 1))}</p>`;
+            });
+
+            appendResultCard(file, snippets, search.hits.length);
+          }
+        } catch (err) {
+          errorFiles++;
+          console.error(err);
+        }
+
+        scannedFiles++;
+        scannedBytes += file.size;
+        els.progress.value = scannedBytes;
+
+        const elapsedSec = (performance.now() - t0) / 1000;
+        renderStatus([
+          `Scanned ${scannedFiles}/${selectedFiles.length} files`,
+          `${fmtBytes(scannedBytes)} / ${fmtBytes(totalBytes)}`,
+          `Matches: ${matchedFiles} files, ${totalHits} hits`,
+          `Errors: ${errorFiles}`,
+          `Elapsed: ${elapsedSec.toFixed(1)}s`,
+          state.stopRequested ? 'Stopping...' : 'Running...',
+        ]);
+
+        if (matchedFiles >= resultLimit) {
+          state.stopRequested = true;
+          renderStatus([
+            `Reached result limit (${resultLimit} files).`,
+            `Scanned ${scannedFiles}/${selectedFiles.length} files`,
+            `Matches: ${matchedFiles} files, ${totalHits} hits`,
+            `Errors: ${errorFiles}`,
+          ]);
+          break;
+        }
+
+        if (scannedFiles % 3 === 0) {
+          await sleepFrame();
+        }
+      }
+
+      const elapsedSec = (performance.now() - t0) / 1000;
+      els.resultsSummary.textContent =
+        `${matchedFiles} matched file(s), ${totalHits} total hit(s) · scanned ${scannedFiles}/${selectedFiles.length} file(s) in ${elapsedSec.toFixed(1)}s`;
+
+      if (matchedFiles === 0) {
+        els.emptyState.textContent = state.stopRequested ? 'Search stopped before any matches were found.' : 'No matches found.';
+        els.emptyState.style.display = '';
+      }
+
+      if (state.stopRequested && matchedFiles > 0) {
+        const note = document.createElement('p');
+        note.className = 'empty';
+        note.textContent = 'Search stopped early. Results shown are partial.';
+        els.results.appendChild(note);
+      }
+
+      setRunning(false);
+    }
+
+    els.form.addEventListener('submit', (e) => {
+      runSearch(e).catch((err) => {
+        console.error(err);
+        renderStatus([`Search failed: ${err.message}`]);
+        setRunning(false);
+      });
+    });
+
+    els.stopBtn.addEventListener('click', () => {
+      state.stopRequested = true;
+    });
+
+    els.clearCacheBtn.addEventListener('click', () => {
+      const count = state.cache.size;
+      state.cache.clear();
+      renderStatus([`Cleared in-memory cache (${count} entries).`]);
+    });
+
+    loadManifest().catch((err) => {
+      console.error(err);
+      els.resultsSummary.textContent = 'Manifest load failed';
+      renderStatus([
+        `Failed to load manifest.json: ${err.message}`,
+        'If testing locally, run a static web server instead of opening index.html directly as file://',
+      ]);
+    });
+  </script>
+</body>
+</html>
