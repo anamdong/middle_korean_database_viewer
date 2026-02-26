@@ -6,44 +6,33 @@
   <title>Middle Korean Corpus Search</title>
   <style>
     @font-face {
-      font-family: "UniConcBatang";
-      src: url("./fonts/HBATANG.TTF") format("truetype");
-      font-display: swap;
-    }
-
-    @font-face {
       font-family: "UniConcDotum";
       src: url("./fonts/HDOTUM.TTF") format("truetype");
       font-display: swap;
     }
 
-    @font-face {
-      font-family: "UniConcSong";
-      src: url("./fonts/FZSong_Super.TTF") format("truetype");
-      font-display: swap;
-    }
-
     :root {
-      --bg: #f3efe6;
-      --panel: #fffdf7;
-      --ink: #1f1b16;
-      --muted: #645d54;
-      --line: #d9d0c4;
-      --accent: #8c2f12;
-      --accent-2: #b55f1f;
-      --hit: #ffe38a;
-      --shadow: 0 8px 24px rgba(31, 27, 22, 0.08);
+      --bg: #050706;
+      --panel: #0b0f0d;
+      --ink: #e8f7e8;
+      --muted: #93b39a;
+      --line: #1f2a22;
+      --accent: #1fd06a;
+      --accent-2: #39f28a;
+      --danger: #ff5f56;
+      --hit: #123e24;
+      --shadow: 0 10px 28px rgba(0, 0, 0, 0.45);
     }
 
     * { box-sizing: border-box; }
     body {
       margin: 0;
-      font-family: "UniConcBatang", "UniConcDotum", "UniConcSong", "Iowan Old Style", "Baskerville", "Apple SD Gothic Neo", "Noto Serif KR", serif;
+      font-family: "UniConcDotum", "Iowan Old Style", "Baskerville", "Apple SD Gothic Neo", "Noto Serif KR", serif;
       color: var(--ink);
       background:
-        radial-gradient(circle at 10% 5%, rgba(181,95,31,.12), transparent 35%),
-        radial-gradient(circle at 95% 0%, rgba(140,47,18,.12), transparent 40%),
-        linear-gradient(180deg, #f8f3e8, var(--bg));
+        radial-gradient(circle at 12% 2%, rgba(57,242,138,.08), transparent 32%),
+        radial-gradient(circle at 88% 0%, rgba(255,95,86,.08), transparent 36%),
+        linear-gradient(180deg, #060907, var(--bg));
       min-height: 100vh;
     }
 
@@ -54,18 +43,35 @@
     }
 
     .hero {
-      background: linear-gradient(180deg, rgba(255,255,255,.88), rgba(255,253,247,.95));
+      background: linear-gradient(180deg, rgba(14,20,17,.96), rgba(9,13,11,.98));
       border: 1px solid var(--line);
       border-radius: 16px;
       padding: 18px 18px 14px;
       box-shadow: var(--shadow);
       margin-bottom: 14px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0 auto auto 0;
+      width: 100%;
+      height: 30px;
+      background:
+        radial-gradient(circle at 18px 15px, var(--danger) 0 5px, transparent 6px),
+        radial-gradient(circle at 38px 15px, #ffbd2e 0 5px, transparent 6px),
+        radial-gradient(circle at 58px 15px, var(--accent) 0 5px, transparent 6px);
+      opacity: .95;
+      pointer-events: none;
     }
 
     h1 {
-      margin: 0 0 6px;
+      margin: 18px 0 6px;
       font-size: clamp(1.25rem, 2.5vw, 1.9rem);
       letter-spacing: .01em;
+      color: #f3fff3;
     }
 
     .subtitle {
@@ -82,6 +88,18 @@
       padding: 14px;
       box-shadow: var(--shadow);
       margin-bottom: 14px;
+      position: relative;
+    }
+
+    .panel::before {
+      content: "terminal";
+      position: absolute;
+      top: 8px;
+      right: 12px;
+      color: #42624b;
+      font: 600 11px/1 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      letter-spacing: .08em;
+      text-transform: uppercase;
     }
 
     .grid {
@@ -99,6 +117,7 @@
     label {
       font-size: .85rem;
       color: var(--muted);
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
     }
 
     input[type="text"], input[type="number"] {
@@ -107,9 +126,16 @@
       border-radius: 10px;
       padding: 10px 12px;
       font: inherit;
-      background: #fff;
+      background: #070a08;
       color: var(--ink);
-      font-family: "UniConcBatang", "UniConcDotum", "Apple SD Gothic Neo", "Noto Serif KR", serif;
+      font-family: "UniConcDotum", "Apple SD Gothic Neo", "Noto Serif KR", serif;
+      box-shadow: inset 0 0 0 1px rgba(31,208,106,0.03);
+    }
+
+    input[type="text"]:focus, input[type="number"]:focus {
+      outline: none;
+      border-color: rgba(57,242,138,0.65);
+      box-shadow: 0 0 0 3px rgba(57,242,138,0.12);
     }
 
     input[type="checkbox"] { transform: translateY(1px); }
@@ -141,18 +167,36 @@
 
     button {
       border: 1px solid var(--accent);
-      background: linear-gradient(180deg, var(--accent-2), var(--accent));
-      color: white;
+      background: linear-gradient(180deg, #10311e, #0b2315);
+      color: #d8ffe6;
       font: inherit;
       padding: 9px 14px;
       border-radius: 10px;
       cursor: pointer;
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      transition: background-color .15s ease, border-color .15s ease, transform .08s ease;
     }
 
     button.secondary {
-      background: #fff;
-      color: var(--ink);
+      background: #0a0d0b;
+      color: #d9e8db;
       border-color: var(--line);
+    }
+
+    button:hover:not(:disabled) {
+      border-color: var(--accent-2);
+      background: linear-gradient(180deg, #143c25, #0d2718);
+    }
+
+    button.secondary:hover:not(:disabled) {
+      border-color: #375041;
+      background: #0d120f;
+    }
+
+    button:active:not(:disabled) {
+      transform: translateY(1px);
     }
 
     button:disabled {
@@ -164,6 +208,7 @@
       width: 100%;
       height: 12px;
       margin-top: 10px;
+      accent-color: var(--accent);
     }
 
     .status {
@@ -186,6 +231,7 @@
       margin: 0;
       color: var(--muted);
       font-size: .9rem;
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
     }
 
     .results {
@@ -197,13 +243,13 @@
     .result {
       border: 1px solid var(--line);
       border-radius: 12px;
-      background: #fff;
+      background: #090d0b;
       overflow: hidden;
     }
 
     .result-head {
       padding: 10px 12px;
-      background: #fbf7ee;
+      background: linear-gradient(180deg, #0d1410, #0a0f0c);
       border-bottom: 1px solid var(--line);
       display: flex;
       justify-content: space-between;
@@ -213,15 +259,20 @@
     }
 
     .result-head a {
-      color: var(--accent);
+      color: #7dffb4;
       text-decoration: none;
       word-break: break-all;
+    }
+
+    .result-head a:hover {
+      text-decoration: underline;
     }
 
     .meta {
       color: var(--muted);
       font-size: .8rem;
       white-space: nowrap;
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
     }
 
     .snippet-list {
@@ -235,24 +286,25 @@
       white-space: pre-wrap;
       word-break: break-word;
       line-height: 1.35;
-      background: #fffdf8;
-      border: 1px solid #eee3cf;
+      background: #060a08;
+      border: 1px solid #18231c;
       border-radius: 8px;
       padding: 8px 10px;
       font-size: .95rem;
-      font-family: "UniConcBatang", "UniConcDotum", "UniConcSong", "Apple SD Gothic Neo", "Noto Serif KR", serif;
+      font-family: "UniConcDotum", "Apple SD Gothic Neo", "Noto Serif KR", serif;
     }
 
     .result-head a,
     .result-head span {
-      font-family: "UniConcBatang", "UniConcDotum", "UniConcSong", "Apple SD Gothic Neo", "Noto Serif KR", serif;
+      font-family: "UniConcDotum", "Apple SD Gothic Neo", "Noto Serif KR", serif;
     }
 
     mark {
       background: var(--hit);
-      color: inherit;
+      color: #b8ffd4;
       padding: 0 .05em;
       border-radius: 3px;
+      outline: 1px solid rgba(57,242,138,.2);
     }
 
     .empty {
@@ -261,12 +313,13 @@
     }
 
     code.inline {
-      background: #f1ebde;
-      border: 1px solid #e2d7c2;
+      background: #0a120d;
+      border: 1px solid #1c2b22;
       border-radius: 6px;
-      padding: 0 5px;
+      padding: 1px 5px;
       font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
       font-size: .85em;
+      color: #c5ffd9;
     }
 
     footer {
@@ -275,7 +328,9 @@
       text-align: center;
       font-size: .9rem;
       padding: 10px 8px 0;
-      font-family: "UniConcBatang", "UniConcDotum", "UniConcSong", "Apple SD Gothic Neo", "Noto Serif KR", serif;
+      font-family: "UniConcDotum", "Apple SD Gothic Neo", "Noto Serif KR", serif;
+      border-top: 1px solid rgba(31, 42, 34, 0.9);
+      text-shadow: 0 0 8px rgba(57,242,138,.08);
     }
 
     @media (max-width: 780px) {
